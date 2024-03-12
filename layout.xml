@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onlaunch="launch">
+			<!--1-->
+			<row>
+				<button color="#ee4d2e" icon="refresh" ontap="reload" />
+				<button color="#ee4d2e" icon="arrowup" ontap="scroll_up" />
+				<button color="#ee4d2e" text="+" ontap="blussi" />
+			</row>
+			<!--2-->
+			<row>
+				<button color="#ee4d2e" icon="arrowleft" ontap="previous" />
+				<button color="#ee4d2e" image="herz_weiss.png" scale="native" ontap="herz" />
+				<button color="#ee4d2e" icon="arrowright" ontap="next" />
+			</row>
+			<!--3-->
+			<row>
+				<button color="#ee4d2e" icon="vmute" ontap="mute" />
+				<button color="#ee4d2e" icon="arrowdown" ontap="scroll_down" />
+				<button color="#ee4d2e" text="-" ontap="minus" />
+			</row>
+</layout>
