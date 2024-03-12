@@ -4,7 +4,7 @@
 			<row>
 				<button color="#ee4d2e" icon="refresh" ontap="reload" />
 				<button color="#ee4d2e" icon="arrowup" ontap="scroll_up" />
-				<button color="#ee4d2e" text="+" ontap="blussi" />
+				<button color="#ee4d2e" image="blussi.png" scale="native" ontap="blussi" />
 			</row>
 			<!--2-->
 			<row>
@@ -16,6 +16,6 @@
 			<row>
 				<button color="#ee4d2e" icon="vmute" ontap="mute" />
 				<button color="#ee4d2e" icon="arrowdown" ontap="scroll_down" />
-				<button color="#ee4d2e" text="-" ontap="minus" />
+				<button color="#ee4d2e" image="minus.png" scale="native" ontap="minus" />
 			</row>
 </layout>
